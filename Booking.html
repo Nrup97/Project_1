@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         a{
+            text-decoration: none;
+            color: blue;
+
+        }
+       
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 60px;">Booking</h1>
+        <nav style="font-size: 30px;">
+            <a href="index.html">Home</a>
+            <a href="Destination.html">Destinations</a>
+            <a href="Booking.html">Booking</a>
+        </nav>
+    </header>
+    <section style="background-color: black; color: white;">
+        <h1>For booking in our cruise</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Your name" id="name" name="name"><br><br>
+            <label for="number">Number:</label>
+            <input type="number" placeholder="Your number" id="number" name="number"><br><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Your email" id="email" name="email"><br><br>
+            <label for="message">Feedback Message:</label><br>
+            <textarea id="message" placeholder="Your feedback" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer  style="background-color: lavender; color: darkcyan;">
+        <p>&copy; 2025 Cruise Adventures</p>
+    </footer>
+</body>
+</html>

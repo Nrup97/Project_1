@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         a{
+            text-decoration: none;
+            color: blue;
+
+        }
+       
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 25px;
+            width: 100%;
+            height: 100%;
+            background-color: aqua;
+        }
+        .grid-item{
+           display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ccc;
+            background-color: aquamarine;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .gride-item img{
+            max-width: 100%;
+            height: auto;
+        }
+
+        .destination{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header style="background-color: lavender; color: darkcyan;">
+        <h1 style="font-size: 60px;"> Our Destinations</h1>
+        <nav style="color: darkcyan;font-size: 30px;">
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="Destination.html">Destinations</a>
+                <a href="Booking.html">Booking</a>
+            </ul>
+        </nav>
+    </header>
+    <main class="destination"; style="background-color: black; color: white;">
+        <h1>Explore Our Destinations</h1>
+        <ul style="font-size: 30px;">
+            <div class="grid-container">
+                <div class="grid-item">
+            <p>Switzerland<br>Switzerland is one of the world's wealthiest countries <br> Price = $2200 for 3 days</p>
+            <img src="https://www.masala.com/cloud/2021/08/01/qgUjKbHY-shutterstock_1360445486.jpg.jpg" width="30%"><br>
+                </div>
+                
+                <div class="grid-item">
+            <p>New York City<br>New York is one of the most visited cities in the world<br> Price = $1600 for 3 days</p>
+            <img src="https://thumbs.dreamstime.com/b/new-york-city-skyline-panorama-text-d-rendering-331432958.jpg" width="30%"><br>
+                </div>
+
+            <div class="grid-item">
+            <p>Miami <br> The Miami metropolitan area is the second-most visited city in the world<br> Price = $1400 for 3 days</p>
+            <img src="https://i.ytimg.com/vi/7qz13Chz_84/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCZO4zZ7JjwHqo6575iSAOwH-iLyw" width="30%"><br>
+            </div>
+
+            <div class="grid-item">
+            <p>Alps<br>  One of the highest and most extensive mountain ranges in Europe<br> Price = $2000 for 3 days</p>
+            <img src="https://i.ytimg.com/vi/BTMjD7_evjE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCtx5Im0HxVK67FL3FGGZ1pLXd0Uw" width="30%">
+            </div>
+            </div>
+
+            
+        </ul>
+        
+    </main>
+    <footer style="background-color: lavender; color: darkcyan;">
+        <p>&copy; 2025 Cruise Adventures</p>
+    </footer>
+</body>
+</html>
